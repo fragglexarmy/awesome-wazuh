@@ -18,7 +18,7 @@ Wazuh is a free, open-source security monitoring platform for threat prevention,
   - [CI/CD & Testing](#cicd--testing)
 - [Rules & Detection](#rules--detection)
   - [Community Rules](#community-rules)
-  - [Synology NAS](#synology-nas)
+  - [Vendor-Specific Rules](#vendor-specific-rules)
   - [Detection Modules](#detection-modules)
 - [Integrations](#integrations)
   - [Alerting](#alerting)
@@ -104,18 +104,20 @@ Step-by-step setup walkthroughs for Wazuh installation, configuration, and opera
 
 ### Community Rules
 
+General-purpose community rule collections.
+
 - 🟡 [socfortress/Wazuh-Rules](https://github.com/socfortress/Wazuh-Rules) - Community rule collection
 - 🟡 [Ghost47-coder/Wazuh-Rules](https://github.com/Ghost47-coder/Wazuh-Rules) - Custom rule set and decoders
+
+### Vendor-Specific Rules
+
+Decoders and rulesets for specific devices, appliances, and platforms.
+
 - 🟡 [Fortigate Rules & Decoders](https://github.com/alextibor/wazuh-fortigate-rules-decoders) - Fortigate device monitoring
-- 🟡 [Unifi Decoder](https://github.com/EvilForge/wazuh-unifi-decoder) - Ubiquiti Unifi network monitoring
 - 🟡 [Pi-hole Decoder & Rules](https://github.com/Tomo-9925/wazuh-pi-hole-decoder-and-rules) - Pi-hole DNS sinkhole monitoring and detection
-
-### Synology NAS
-
-Monitor Synology DSM systems for security events, file integrity, and access logs.
-
-- 🟡 [st0rm-cr0w Synology Rules](https://github.com/st0rm-cr0w/wazuh-synology-dsm-nas-decoder-and-rules) - DSM decoder and rules
-- 🟡 [Tomo-9925 Synology Rules](https://github.com/Tomo-9925/wazuh-synology-dsm-decoder-and-rules) - Alternative DSM decoder implementation
+- 🟡 [Synology DSM (st0rm-cr0w)](https://github.com/st0rm-cr0w/wazuh-synology-dsm-nas-decoder-and-rules) - Synology DSM decoder and rules
+- 🟡 [Synology DSM (Tomo-9925)](https://github.com/Tomo-9925/wazuh-synology-dsm-decoder-and-rules) - Alternative Synology DSM decoder implementation
+- 🟡 [Unifi Decoder](https://github.com/EvilForge/wazuh-unifi-decoder) - Ubiquiti Unifi network monitoring
 
 ### Detection Modules
 
