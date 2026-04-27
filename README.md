@@ -8,6 +8,7 @@ Wazuh is a free, open-source security monitoring platform for threat prevention,
 
 - [Official Documentation](#official-documentation)
 - [Getting Started](#getting-started)
+- [Setup Guides](#setup-guides)
 - [Deployment](#deployment)
   - [Docker](#docker)
   - [Kubernetes](#kubernetes)
@@ -51,6 +52,12 @@ Wazuh is a free, open-source security monitoring platform for threat prevention,
 - 🟢 [Quickstart](https://documentation.wazuh.com/current/quickstart.html) - Get running in 30-60 minutes
 - 🟢 [Wazuh Cloud](https://cloud.wazuh.com/) - Fully managed SaaS option with free tier
 - 🟢 [Docker Quick Start](https://github.com/wazuh/wazuh-docker) - Single command deployment for testing
+
+## Setup Guides
+
+Step-by-step setup walkthroughs for Wazuh installation, configuration, and operational tasks.
+
+- 🟡 [samma-io/wazuh-help](https://github.com/samma-io/wazuh-help) - Setup help, troubleshooting, and operational notes for Wazuh deployments
 
 ## Deployment
 
